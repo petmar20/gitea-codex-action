@@ -71610,7 +71610,7 @@ function loadConfig() {
     openaiApiKey: input("OPENAI_API_KEY"),
     giteaToken: input("GITEA_TOKEN", process.env.GITEA_TOKEN ?? process.env.GITHUB_TOKEN ?? ""),
     forgeUrl: input("FORGE_URL", process.env.GITEA_URL ?? process.env.GITHUB_API_URL ?? ""),
-    model: input("MODEL", "gpt-5.6-terra"),
+    model: input("MODEL", "gpt-6-sol"),
     reasoningEffort: input("REASONING_EFFORT", "medium"),
     triggerPhrases: input("TRIGGER_PHRASE", "@codex"),
     assigneeTrigger: input("ASSIGNEE_TRIGGER"),
